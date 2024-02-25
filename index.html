@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png" alt="logo">
+        <h2 class="logo">ODIN</h2>
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Service</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <div class="wrapper">
+        <div class="form-box login">
+            <h2>Sign up</h2>
+            <form action="#" class="form">
+
+                <div class="input-box">
+                    <input type="text" name="username" id="username" required>
+                    <label for="username">USERNAME</label>
+                </div>
+
+                <div class="input-box">
+                    <input type="email" name="email" id="EMAIL" required>
+                    <label for="email">EMAIL</label>
+
+                </div>
+
+                <div class="input-box">
+                    <input type="password" name="password" id="password" required min="8" max="16">
+                    <label for="password">PASSWORD</label>
+
+                </div>
+
+                <div class="wrapper-two">
+                    <div class="terms-condition">
+                        <label><input type="checkbox" required> I accept the terms & conditions</label>
+                    </div>
+                    <button type="submit" class="btn">Create Account</button>
+                    <div class="login">
+                        <p>Already have an account? <a href="#">Log in</a></p>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
